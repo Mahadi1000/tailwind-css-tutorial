@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./src/output.css" />
+  </head>
+  <body class="lg:px-[100px] md:px-[50px] px-5 font-custom">
+    <header class="lg:my-16 my-7 md:my-11">
+      <nav class="flex justify-between">
+        <!-- logo -->
+        <div class="flex gap-4 items-start">
+          <img class="w-9" src="./images/logo.png" alt="logo" />
+          <h1 class="text-3xl font-semibold">Positivus</h1>
+        </div>
+        <!-- navigation link -->
+        <div class="hidden lg:flex space-x-10 *:font-semibold items-center">
+          <a
+            class="text-black hover:text-gray-800 hover:underline py-px"
+            href=""
+            >About us</a
+          >
+          <a
+            class="text-black hover:text-gray-800 hover:underline py-px"
+            href=""
+            >Services</a
+          >
+          <a
+            class="text-black hover:text-gray-800 hover:underline py-px"
+            href=""
+            >Use Cases</a
+          >
+          <a
+            class="text-black hover:text-gray-800 hover:underline py-px"
+            href=""
+            >Pricing</a
+          >
+          <a
+            class="text-black hover:text-gray-800 hover:underline py-px"
+            href=""
+            >Blog</a
+          >
+
+          <!-- CTA -->
+          <a
+            class="py-2 px-4 rounded-lg border border-black hover:bg-black hover:text-white transition-colors duration-300"
+            href=""
+            >Request a quote</a
+          >
+        </div>
+        <button class="lg:hidden block" aria-label="Open Menu">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-6 w-6"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M4 6h16M4 12h16M4 18h16"
+            />
+          </svg>
+        </button>
+      </nav>
+    </header>
+    <!-- Hero section -->
+    <section class="flex lg:flex-row flex-col items-center justify-between">
+      <!-- hero content -->
+      <div>
+        <h2 class="text-5xl font-semibold leading-[70px]">
+          Navigating the <br />
+          digital landscape <br />
+          for success
+        </h2>
+        <p class="py-8 text-gray-600 max-w-md">
+          Our digital marketing agency helps businesses grow and succeed online
+          through a range of services including SEO, PPC, social media
+          marketing, and content creation.
+        </p>
+        <button
+          class="bg-[#191A23] text-white py-3 px-6 rounded-lg hover:bg-black duration-300"
+        >
+          Book a consultation
+        </button>
+      </div>
+      <!-- hero image -->
+      <div>
+        <img src="./images/hero_img.png" alt="" />
+      </div>
+    </section>
+    <!-- sponsor section -->
+    <section class="flex justify-between flex-wrap py-5 gap-4">
+      <img src="./images//amazon.png" alt="" />
+      <img src="./images/dribble.png" alt="" />
+      <img src="./images/hubspot.png" alt="" />
+      <img src="./images/notion.png" alt="" />
+      <img src="./images/netflix.png" alt="" />
+      <img src="./images/zoom.png" alt="" />
+    </section>
+    <main>
+      <!-- service section -->
+      <section class="py-28">
+        <!-- service header -->
+        <div
+          class="flex lg:flex-row flex-col items-center gap-6 justify-center lg:w-[50%]"
+        >
+          <h2 class="text-4xl py-px bg-[#B9FF66] w-[178px] px-4 font-semibold">
+            Services
+          </h2>
+          <p class="text-gray-800">
+            At our digital marketing agency, we offer a range of services to
+            help businesses grow and succeed online. These services include:
+          </p>
+        </div>
+        <!-- service card -->
+        <div class="py-20 grid grid-cols-1 lg:grid-cols-2  gap-5">
+          <!-- card 1 -->
+          <div
+            class="border border-[#191A23] h-[300px] flex justify-between rounded-3xl border-b-8 bg-[#F3F3F3] border-b-black p-10"
+          >
+            <div class="flex flex-col text-2xl font-semibold">
+              <div class="leading-none">
+                <div>
+                  <span class="bg-[#B9FF66] rounded-lg py-4 px-4"
+                    >Search Engine</span
+                  >
+                </div>
+                <br />
+                <div>
+                  <span class="bg-[#B9FF66] rounded-lg py-4 px-4"
+                    >Optimization
+                  </span>
+                </div>
+              </div>
+              <div class="flex items-center gap-4 mt-[93px]">
+                <img src="./icons/card_arrow.png" alt="" />
+                <a href="">Learn more</a>
+              </div>
+            </div>
+            <div>
+              <img src="./images/search_engine.png" alt="" />
+            </div>
+          </div>
+          <!-- card 2 -->
+          <div
+            class="border border-[#191A23] h-[300px] flex justify-between rounded-3xl border-b-8 bg-[#B9FF66] border-b-black p-10"
+          >
+            <div class="flex flex-col text-2xl font-semibold">
+              <div class="leading-none">
+                <div>
+                  <span class="bg-[#fff] rounded-lg py-4 px-4"
+                    >Pay-per-click</span
+                  >
+                </div>
+                <br />
+                <div>
+                  <span class="bg-[#fff] rounded-lg py-4 px-4"
+                    >advertising
+                  </span>
+                </div>
+              </div>
+              <div class="flex items-center gap-4 mt-[93px]">
+                <img src="./icons/card_arrow.png" alt="" />
+                <a href="">Learn more</a>
+              </div>
+            </div>
+            <div>
+              <img src="./images/service_2.png" alt="" />
+            </div>
+          </div>
+          <!-- card 3 -->
+          <div
+            class="border border-[#191A23] h-[300px] flex justify-between rounded-3xl border-b-8 bg-[#191A23] border-b-black p-10"
+          >
+            <div class="flex flex-col text-2xl font-semibold">
+              <div class="leading-none">
+                <div>
+                  <span class="bg-[#fff] rounded-lg py-4 px-4"
+                    >Social Media</span
+                  >
+                </div>
+                <br />
+                <div>
+                  <span class="bg-[#fff] rounded-lg py-4 px-4">Marketing </span>
+                </div>
+              </div>
+              <div class="flex items-center gap-4 text-white mt-[93px]">
+                <img src="./icons/card_arrow.png" alt="" />
+                <a href="">Learn more</a>
+              </div>
+            </div>
+            <div>
+              <img src="./images/service_3.png" alt="" />
+            </div>
+          </div>
+          <!-- card 4 -->
+          <div
+            class="border border-[#F3F3F3] h-[300px] flex justify-between rounded-3xl border-b-8 bg-[#fff] border-b-black p-10"
+          >
+            <div class="flex flex-col text-2xl font-semibold">
+              <div class="leading-none">
+                <div>
+                  <span class="bg-[#B9FF66] rounded-lg py-4 px-4"
+                    >Social Media</span
+                  >
+                </div>
+                <br />
+                <div>
+                  <span class="bg-[#B9FF66] rounded-lg py-4 px-4"
+                    >Marketing
+                  </span>
+                </div>
+              </div>
+              <div class="flex items-center gap-4 mt-[93px]">
+                <img src="./icons/card_arrow.png" alt="" />
+                <a href="">Learn more</a>
+              </div>
+            </div>
+            <div>
+              <img src="./images/service_4.png" alt="" />
+            </div>
+          </div>
+          <!-- card 5 -->
+          <div
+            class="border border-[#191A23] h-[300px] flex justify-between rounded-3xl border-b-8 bg-[#B9FF66] border-b-black p-10"
+          >
+            <div class="flex flex-col text-2xl font-semibold">
+              <div class="leading-none">
+                <div>
+                  <span class="bg-[#fff] rounded-lg py-4 px-4"
+                    >Social Media</span
+                  >
+                </div>
+                <br />
+                <div>
+                  <span class="bg-[#fff] rounded-lg py-4 px-4">Marketing </span>
+                </div>
+              </div>
+              <div class="flex items-center gap-4 text-white mt-[93px]">
+                <img src="./icons/card_arrow.png" alt="" />
+                <a href="">Learn more</a>
+              </div>
+            </div>
+            <div>
+              <img src="./images/service_5.png" alt="" />
+            </div>
+          </div>
+          <!-- card 6 -->
+          <div
+            class="border border-[#191A23] h-[300px] flex justify-between rounded-3xl border-b-8 bg-[#191A23] border-b-black p-10"
+          >
+            <div class="flex flex-col text-2xl font-semibold">
+              <div class="leading-none">
+                <div>
+                  <span class="bg-[#fff] rounded-lg py-4 px-4"
+                    >Social Media</span
+                  >
+                </div>
+                <br />
+                <div>
+                  <span class="bg-[#fff] rounded-lg py-4 px-4">Marketing </span>
+                </div>
+              </div>
+              <div class="flex items-center gap-4 text-white mt-[93px]">
+                <img src="./icons/card_arrow.png" alt="" />
+                <a href="">Learn more</a>
+              </div>
+            </div>
+            <div>
+              <img src="./images/service_6.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="bg-[#F3F3F3]  rounded-3xl">
+        <!-- Let’s make things happen -->
+        <div class="flex flex-col lg:flex-row justify-between w-full">
+          <!-- text content -->
+          <div class="lg:w-1/2 w-full p-16">
+            <h2 class="text-2xl font-semibold">Let’s make things happen</h2>
+            <p class="text-gray-700">
+              Contact us today to learn more about how our digital marketing
+              services can help your business grow and succeed online.
+            </p>
+            <button>Get your free proposal</button>
+          </div>
+          <!-- image -->
+          <div class="lg:w-1/2 w-full flex justify-end pr-32">
+            <img
+              class="w-[70%] h-full"
+              src="./images/things_happen.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </section>
+      <!-- case studies -->
+      <section class="mt-32">
+        <!-- header -->
+
+        <div
+          class="flex lg:flex-row flex-col items-center gap-6 justify-center lg:w-[75%]"
+        >
+          <h2 class="text-4xl py-px bg-[#B9FF66] w-[315px] px-4 font-semibold">
+            Case Studies
+          </h2>
+          <p class="text-gray-800">
+            Explore Real-Life Examples of Our Proven Digital Marketing Success
+            through Our Case Studies
+          </p>
+        </div>
+        <div
+          class="bg-[#191A23] rounded-3xl mt-10 p-12 grid lg:grid-cols-3 grid-cols-1 divide-y lg:divide-x gap-8 divide-gray-100"
+        >
+          <!-- case study 1 -->
+          <div class="pt-8">
+            <p class="text-white leading-relaxed mb-4">
+              For a local restaurant, we implemented a targeted PPC campaign
+              that resulted in a 50% increase in website traffic and a 25%
+              increase in sales.
+            </p>
+            <a
+              class="group inline-flex items-center text text-[#B9FF66]"
+              href="#"
+            >
+              <span> Learn more </span>
+              <svg
+                class="w-4 h-4 transition-transform duration-300 group-hover:translate-x-1"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+              >
+                <path
+                  d="M4 12h16m-6-6l6 6-6 6"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </a>
+          </div>
+          <!-- case study 2 -->
+          <div class="pt-8 px-5">
+            <p class="text-white leading-relaxed mb-4">
+              For a local restaurant, we implemented a targeted PPC campaign
+              that resulted in a 50% increase in website traffic and a 25%
+              increase in sales.
+            </p>
+            <a
+              class="group inline-flex items-center text text-[#B9FF66]"
+              href="#"
+            >
+              <span> Learn more </span>
+              <svg
+                class="w-4 h-4 transition-transform duration-300 group-hover:translate-x-1"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+              >
+                <path
+                  d="M4 12h16m-6-6l6 6-6 6"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </a>
+          </div>
+          <!-- case study 1 -->
+          <div class="pt-8 px-5">
+            <p class="text-white leading-relaxed mb-4">
+              For a local restaurant, we implemented a targeted PPC campaign
+              that resulted in a 50% increase in website traffic and a 25%
+              increase in sales.
+            </p>
+            <a
+              class="group inline-flex items-center text text-[#B9FF66]"
+              href="#"
+            >
+              <span> Learn more </span>
+              <svg
+                class="w-6 h-6 transition-transform duration-300 group-hover:translate-x-1 -rotate-45"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+              >
+                <path
+                  d="M4 12h16m-6-6l6 6-6 6"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </section>
+      <!-- working process -->
+      <section class="mt-36">
+        <!-- header -->
+
+        <div
+          class="flex lg:flex-row flex-col items-center gap-6 justify-center lg:w-[75%]"
+        >
+          <h2 class="text-4xl py-px bg-[#B9FF66] w-[400px] px-4 font-semibold">
+            Our Working Process
+          </h2>
+          <p class="text-gray-800">
+            Step-by-Step Guide to Achieving Your Business Goals
+          </p>
+        </div>
+        <div class="py-10 flex flex-col gap-5">
+          <!-- first item -->
+          <details
+            class="group rounded-3xl bg-[#F3F3F3] p-6 shadow-sm border-b-4 border-black"
+          >
+            <summary
+              class="flex py-3 cursor-pointer items-center justify-between"
+            >
+              <div class="flex items-center gap-4">
+                <span class="text-4xl font-medium">01</span>
+                <h2 class="text-xl font-medium">Consultation</h2>
+              </div>
+              <div
+                class="border border-black w-8 h-8 flex justify-center items-center rounded-full bg-gray-500"
+              >
+                <span class="text-2xl">+</span>
+              </div>
+            </summary>
+            <p class="pt-4 text-gray-800 border-t-[1px] border-black">
+              During the initial consultation, we will discuss your business
+              goals and objectives, target audience, and current marketing
+              efforts. This will allow us to understand your needs and tailor
+              our services to best fit your requirements.
+            </p>
+          </details>
+          <!-- first item -->
+          <details
+            class="group rounded-3xl bg-[#F3F3F3] p-6 shadow-sm border-b-4 border-black"
+          >
+            <summary
+              class="flex py-3 cursor-pointer items-center justify-between"
+            >
+              <div class="flex items-center gap-4">
+                <span class="text-4xl font-medium">02</span>
+                <h2 class="text-xl font-medium">Consultation</h2>
+              </div>
+              <div
+                class="border border-black w-8 h-8 flex justify-center items-center rounded-full bg-gray-500"
+              >
+                <span class="text-2xl">+</span>
+              </div>
+            </summary>
+            <p class="pt-4 text-gray-800 border-t-[1px] border-black">
+              During the initial consultation, we will discuss your business
+              goals and objectives, target audience, and current marketing
+              efforts. This will allow us to understand your needs and tailor
+              our services to best fit your requirements.
+            </p>
+          </details>
+          <!-- first item -->
+          <details
+            class="group rounded-3xl bg-[#F3F3F3] p-6 shadow-sm border-b-4 border-black"
+          >
+            <summary
+              class="flex py-3 cursor-pointer items-center justify-between"
+            >
+              <div class="flex items-center gap-4">
+                <span class="text-4xl font-medium">01</span>
+                <h2 class="text-xl font-medium">Consultation</h2>
+              </div>
+              <div
+                class="border border-black w-8 h-8 flex justify-center items-center rounded-full bg-gray-500"
+              >
+                <span class="text-2xl">+</span>
+              </div>
+            </summary>
+            <p class="pt-4 text-gray-800 border-t-[1px] border-black">
+              During the initial consultation, we will discuss your business
+              goals and objectives, target audience, and current marketing
+              efforts. This will allow us to understand your needs and tailor
+              our services to best fit your requirements.
+            </p>
+          </details>
+          <!-- first item -->
+          <details
+            class="group rounded-3xl bg-[#F3F3F3] p-6 shadow-sm border-b-4 border-black"
+          >
+            <summary
+              class="flex py-3 cursor-pointer items-center justify-between"
+            >
+              <div class="flex items-center gap-4">
+                <span class="text-4xl font-medium">01</span>
+                <h2 class="text-xl font-medium">Consultation</h2>
+              </div>
+              <div
+                class="border border-black w-8 h-8 flex justify-center items-center rounded-full bg-gray-500"
+              >
+                <span class="text-2xl">+</span>
+              </div>
+            </summary>
+            <p class="pt-4 text-gray-800 border-t-[1px] border-black">
+              During the initial consultation, we will discuss your business
+              goals and objectives, target audience, and current marketing
+              efforts. This will allow us to understand your needs and tailor
+              our services to best fit your requirements.
+            </p>
+          </details>
+          <!-- first item -->
+          <details
+            class="group rounded-3xl bg-[#F3F3F3] p-6 shadow-sm border-b-4 border-black"
+          >
+            <summary
+              class="flex py-3 cursor-pointer items-center justify-between"
+            >
+              <div class="flex items-center gap-4">
+                <span class="text-4xl font-medium">01</span>
+                <h2 class="text-xl font-medium">Consultation</h2>
+              </div>
+              <div
+                class="border border-black w-8 h-8 flex justify-center items-center rounded-full bg-gray-500"
+              >
+                <span class="text-2xl">+</span>
+              </div>
+            </summary>
+            <p class="pt-4 text-gray-800 border-t-[1px] border-black">
+              During the initial consultation, we will discuss your business
+              goals and objectives, target audience, and current marketing
+              efforts. This will allow us to understand your needs and tailor
+              our services to best fit your requirements.
+            </p>
+          </details>
+        </div>
+      </section>
+      <section class="mt-36">
+        <!--  header -->
+        <div
+          class="flex lg:flex-row flex-col items-center gap-6 justify-center lg:w-[50%]"
+        >
+          <h2 class="text-4xl py-px bg-[#B9FF66] w-[178px] px-4 font-semibold">
+            Team
+          </h2>
+          <p class="text-gray-800">
+            Meet the skilled and experienced team behind our successful digital
+            marketing strategies
+          </p>
+        </div>
+
+        <div class="grid mt-10 lg:grid-cols-3 gap-5 grid-cols-1">
+          <!-- card 1 -->
+          <div class="border border-black border-b-4 rounded-3xl p-8">
+            <div
+              class="flex items-start justify-between py-4 border-b border-black"
+            >
+              <div class="flex items-end gap-5">
+                <img src="./images/team_1.png" alt="" />
+                <div>
+                  <h2 class="font-medium text-sm">Mahadi Hasan</h2>
+                  <p class="text-gray-600 text-xs">
+                    CEO and Founder at onnorokom programming
+                  </p>
+                </div>
+              </div>
+              <div
+                class="h-10 w-10 flex justify-center items-center rounded-full border border-black bg-black text-white"
+              >
+                in
+              </div>
+            </div>
+            <p class="text-xs mt-2 py-3">
+              10+ years of experience in digital marketing. Expertise in SEO,
+              PPC, and content strategy
+            </p>
+          </div>
+          <!-- card 1 -->
+          <div class="border border-black border-b-4 rounded-3xl p-8">
+            <div
+              class="flex items-start justify-between py-4 border-b border-black"
+            >
+              <div class="flex items-end gap-5">
+                <img src="./images/team_1.png" alt="" />
+                <div>
+                  <h2 class="font-medium text-sm">Mahadi Hasan</h2>
+                  <p class="text-gray-600 text-xs">
+                    CEO and Founder at onnorokom programming
+                  </p>
+                </div>
+              </div>
+              <div
+                class="h-10 w-10 flex justify-center items-center rounded-full border border-black bg-black text-white"
+              >
+                in
+              </div>
+            </div>
+            <p class="text-xs mt-2 py-3">
+              10+ years of experience in digital marketing. Expertise in SEO,
+              PPC, and content strategy
+            </p>
+          </div>
+          <!-- card 1 -->
+          <div class="border border-black border-b-4 rounded-3xl p-8">
+            <div
+              class="flex items-start justify-between py-4 border-b border-black"
+            >
+              <div class="flex items-end gap-5">
+                <img src="./images/team_1.png" alt="" />
+                <div>
+                  <h2 class="font-medium text-sm">Mahadi Hasan</h2>
+                  <p class="text-gray-600 text-xs">
+                    CEO and Founder at onnorokom programming
+                  </p>
+                </div>
+              </div>
+              <div
+                class="h-10 w-10 flex justify-center items-center rounded-full border border-black bg-black text-white"
+              >
+                in
+              </div>
+            </div>
+            <p class="text-xs mt-2 py-3">
+              10+ years of experience in digital marketing. Expertise in SEO,
+              PPC, and content strategy
+            </p>
+          </div>
+          <!-- card 1 -->
+          <div class="border border-black border-b-4 rounded-3xl p-8">
+            <div
+              class="flex items-start justify-between py-4 border-b border-black"
+            >
+              <div class="flex items-end gap-5">
+                <img src="./images/team_1.png" alt="" />
+                <div>
+                  <h2 class="font-medium text-sm">Mahadi Hasan</h2>
+                  <p class="text-gray-600 text-xs">
+                    CEO and Founder at onnorokom programming
+                  </p>
+                </div>
+              </div>
+              <div
+                class="h-10 w-10 flex justify-center items-center rounded-full border border-black bg-black text-white"
+              >
+                in
+              </div>
+            </div>
+            <p class="text-xs mt-2 py-3">
+              10+ years of experience in digital marketing. Expertise in SEO,
+              PPC, and content strategy
+            </p>
+          </div>
+          <!-- card 1 -->
+          <div class="border border-black border-b-4 rounded-3xl p-8">
+            <div
+              class="flex items-start justify-between py-4 border-b border-black"
+            >
+              <div class="flex items-end gap-5">
+                <img src="./images/team_1.png" alt="" />
+                <div>
+                  <h2 class="font-medium text-sm">Mahadi Hasan</h2>
+                  <p class="text-gray-600 text-xs">
+                    CEO and Founder at onnorokom programming
+                  </p>
+                </div>
+              </div>
+              <div
+                class="h-10 w-10 flex justify-center items-center rounded-full border border-black bg-black text-white"
+              >
+                in
+              </div>
+            </div>
+            <p class="text-xs mt-2 py-3">
+              10+ years of experience in digital marketing. Expertise in SEO,
+              PPC, and content strategy
+            </p>
+          </div>
+          <!-- card 1 -->
+          <div class="border border-black border-b-4 rounded-3xl p-8">
+            <div
+              class="flex items-start justify-between py-4 border-b border-black"
+            >
+              <div class="flex items-end gap-5">
+                <img src="./images/team_1.png" alt="" />
+                <div>
+                  <h2 class="font-medium text-sm">Mahadi Hasan</h2>
+                  <p class="text-gray-600 text-xs">
+                    CEO and Founder at onnorokom programming
+                  </p>
+                </div>
+              </div>
+              <div
+                class="h-10 w-10 flex justify-center items-center rounded-full border border-black bg-black text-white"
+              >
+                in
+              </div>
+            </div>
+            <p class="text-xs mt-2 py-3">
+              10+ years of experience in digital marketing. Expertise in SEO,
+              PPC, and content strategy
+            </p>
+          </div>
+        </div>
+      </section>
+      <footer class="mt-32 py-5 px-10 bg-[#191A23] rounded-3xl">
+        <!-- header -->
+              <div class="flex  justify-between">
+        <!-- logo -->
+        <div class="flex gap-4 items-start">
+          <img class="w-9" src="./images/logo.png" alt="logo" />
+          <h1 class="text-3xl font-semibold text-white">Positivus</h1>
+        </div>
+        <!-- navigation link -->
+        <div class="hidden lg:flex space-x-10 *:font-semibold items-center">
+          <a
+            class="text-white hover:text-gray-800 hover:underline py-px"
+            href=""
+            >About us</a
+          >
+          <a
+            class="text-white hover:text-gray-800 hover:underline py-px"
+            href=""
+            >Services</a
+          >
+          <a
+            class="text-white hover:text-gray-800 hover:underline py-px"
+            href=""
+            >Use Cases</a
+          >
+          <a
+            class="text-white hover:text-gray-800 hover:underline py-px"
+            href=""
+            >Pricing</a
+          >
+          <a
+            class="text-white hover:text-gray-800 hover:underline py-px"
+            href=""
+            >Blog</a
+          >
+
+       
+        </div>
+        <div class="flex gap-2">
+         <a href="#" class="hover:text-gray-300 rounded-full">
+              <svg class="w-6 h-6 rounded-full" fill="white" viewBox="0 0 24 24">
+                <path
+                  d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"
+                />
+              </svg>
+            </a>
+             <a href="#" class="hover:text-gray-300"></a>
+              <svg class="w-6 h-6 rounded-full" fill="white" viewBox="0 0 24 24">
+                <path
+                  d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .731.593 1.324 1.325 1.324h11.495v-9.294h-3.128v-3.622h3.128v-2.671c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12v9.293h6.116c.73 0 1.323-.593 1.323-1.325v-21.35c0-.732-.593-1.325-1.325-1.325z"
+                />
+              </svg>
+            </a>
+            <a href="#" class="hover:text-gray-300">
+              <svg class="w-6 h-6 rounded-full" fill="white" viewBox="0 0 24 24">
+                <path
+                  d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"
+                />
+              </svg>
+            </a>
+        </div>
+      </div>
+      <!-- main content -->
+       <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-6  py-10 border-white border-b">
+        <div >
+          <button class="inline-block px-4 py-1 text-black rounded-lg mb-6 font-semibold bg-[#B9FF66]">Contact Us:</button>
+          <div class="text-gray-300">
+            <p class="py-2"> Email: onnorokom.programming@gmail.com</p>
+            <p class="py-2"> Phone: 0170000000</p>
+            <p class="py-2">Dhaka, Bangladesh</p>
+          </div>
+        </div>
+        <!-- newsletter -->
+         <div class="bg-[#292A32] rounded-xl flex justify-center items-center gap-4">
+    
+            <input class="rounded-lg px-3 py-3 bg-transparent border focus:outline-none text-white"  type="email" placeholder="Email">
+            <button class="px-6 py-3 bg-[#B9FF66] rounded-lg font-semibold text-black hover:bg-[#8fba5b] transition-colors duration-300">Subscribe to news</button>
+          
+         </div>
+       </div>
+       <div class="flex flex-col lg:flex-row gap-10 items-center pt-8 text-gray-400">
+        <p>© 2023 Positivus. All Rights Reserved.</p>
+        <a class="underline" href="">Privacy Policy</a>
+       </div>
+      </footer>
+    </main>
+  </body>
+</html>
